@@ -60,8 +60,7 @@ nav a:hover {
 }
 #hero h1 { 
     text-align: center;
-    margin: -30
-    px 0px;
+    margin: -10x 0px;
 }
 #hero-box {
     grid-column: 1/4;
@@ -69,8 +68,7 @@ nav a:hover {
     z-index: -1;
 }
 #hero-msg h4 {
-    
-    color: white;
+   color: white;
 }
 .home-grid {
     display: grid;
@@ -90,16 +88,12 @@ body {
     margin: 0;
     padding: 0;
 }
-h2 {
-    margin: 25px;
-}
 
 .book, .join {
-    background-color:rgb(175, 179, 189);
-    text-decoration: none; 
+    background-color:rgb(175, 179, 189); 
     font-size: 18px; 
-    padding: 5px 25px;  
-    margin-top: 50px;
+    padding: 5px;  
+    margin-top: 0px;
     border-radius: 5px;
 }
 .card-img {
@@ -180,6 +174,7 @@ footer social img {
  }
 .button-box {
     text-align: center;
+    margin-top:-25px
  }
 main section {
     text-align: center;
