@@ -60,7 +60,7 @@ nav a:hover {
 }
 #hero h1 { 
     text-align: center;
-    margin: -10x 0px;
+    margin: 0px 0px;
 }
 #hero-box {
     grid-column: 1/4;
