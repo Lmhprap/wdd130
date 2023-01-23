@@ -85,7 +85,7 @@ body {
     margin: 0;
     background-color:rgb(254, 253, 251);
     font-family: Rock Salt, Aerial, sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     padding: 0;
 }
 
@@ -93,7 +93,7 @@ body {
     background-color:rgb(175, 179, 189); 
     font-size: 18px; 
     padding: 0px;  
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .card-img {
     border: 10px solid #0a0a09;
