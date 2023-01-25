@@ -42,10 +42,6 @@ nav a:hover {
     justify-self: center;
     align-self: center;
 }
-#hero-img { 
-    max-width: 100%;
-}
-
 #hero { 
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -56,7 +52,7 @@ nav a:hover {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: px;
 }
 #hero h1 { 
     text-align: center;
