@@ -35,7 +35,7 @@ nav a:hover {
     background-color: rgb(19, 19, 20);   
 }
 .logo {
-    width: 100px;
+    width: 80px;
    }
 #logo_link {
     padding-top: 5px;
@@ -44,15 +44,17 @@ nav a:hover {
 }
 #hero { 
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100;
     text-align: center;
-    max-width: -100%;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-img {
+    width: 100%;
 }
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: px;
+    margin-top: 100px;
 }
 #hero h1 { 
     text-align: center;
@@ -89,6 +91,7 @@ body {
     font-size: 18px; 
     padding: 0px;  
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .book:hover, .join:hover {
@@ -116,7 +119,7 @@ footer a:hover {
 footer p {
     padding: 25px 50px;
     color: rgb(13, 13, 13);
-    font-size: 20px;
+    font-size: 1.2em;
     margin: 0 auto;
 }
 footer p a:hover {
