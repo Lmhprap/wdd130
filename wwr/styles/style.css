@@ -20,7 +20,7 @@ nav {
     justify-content: space-around;
 }
 nav a {
-    padding: 0px;
+    padding: 35px;
     text-align: center;
     color: #f9f4f4;
     text-decoration: none;
@@ -74,7 +74,7 @@ nav a:hover {
 .home-title {  
     color: #fbf7f2;
     font-size: 2em;
-    margin-top: 5px;
+    margin-top: 10px;
     font-family: Neucha, Patrick Hand, sans-serif;
 }
 body {
@@ -91,6 +91,7 @@ body {
     padding: 0px;  
     border-radius: 5px;
     text-decoration: none;
+    margin-top: 50px;
 }
 
 .book:hover, .join:hover {
@@ -113,6 +114,9 @@ footer a {
 footer a:hover {
     font-size: 1.4em;
     text-decoration: underline;
+  }
+  h2 {
+    margin: 0;
   }
 
 footer p {
@@ -150,8 +154,8 @@ footer social img {
 }
 .msg p {
     background-color:#e13030;
-    font-size: .9em;
-    padding-bottom: 5px;
+    font-size: .8em;
+    padding-bottom: 15px;
     font-family: Rock Salt, Neucha, sans-serif;
 }
 .icon {
@@ -186,7 +190,7 @@ main section img {
 }
 .card-img
  {
-    border: 5px solid #0a0a09;
+    border: 10px solid #0a0a09;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     width: 100%;
