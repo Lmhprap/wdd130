@@ -11,12 +11,13 @@
 }
 header {
     background:#164DB5;
+    display: grid;
     grid-template-columns: 150px auto;
 }
 nav {
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    
 }
 nav a {
     padding: 5px;
@@ -180,16 +181,16 @@ main section {
 }
 
 .rivers-card {
-    margin: 100px 20px;
+    margin: 100px 25px;
 }
 .camping-card {
-    margin: 100px 20px;
+    margin: 100px 25px;
 }
 .rapids-card {
-    margin: 100px 020px;
+    margin: 100px 25px;
 }
 .vol-card {
-    margin: 100px 020px;
+    margin: 100px 25px;
 }
 .rivers-card {
     grid-column: 2/4;
