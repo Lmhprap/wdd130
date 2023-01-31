@@ -5,7 +5,7 @@
 
 #background { 
     height: 725px;
-    background: color #ecf0e5;
+    background: color #ecf0ec;
     grid-column: 1/11;
     grid-row: 4/9;
 }
@@ -48,16 +48,12 @@ nav a:hover {
 }
 #hero-img {
     width: 25%;
-    border-left: -100px;
+    border-left: 100px;
 }
 #hero-msg {
     grid-column: 2/4;
     grid-row: 1/2;
     margin-top: 15px;
-}
-#hero h1 { 
-    text-align: ;
-    margin: 0px 0px;
 }
 #hero-box {
     grid-column: 1/2;
@@ -109,7 +105,6 @@ footer {
     margin-top: 150px;
     display: flex;
     justify-content: space-around;
-    align-items: left;
 }
 footer a {
    text-decoration: none;
