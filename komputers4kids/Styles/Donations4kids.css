@@ -45,7 +45,6 @@ nav a:hover {
     display: grid;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     margin-top: 50px;
 }
 #hero-img {
@@ -195,8 +194,8 @@ main section {
     margin: 100px 175px;
 }
 .vol-card {
-    grid-column: 3/10;
-    grid-row: 2/3;    
+    grid-column: 3/5;
+    grid-row: 4/5;    
 }
 .education-card {
     grid-column: 1/;
