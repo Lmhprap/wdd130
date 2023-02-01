@@ -83,7 +83,7 @@ nav a:hover {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(1, 1fr);
 }
 .home-title {  
@@ -189,16 +189,17 @@ main section {
 
 .education-card {
     margin: 100px 25px;
+    
 }
 .vol-card {
-    margin: 100px 175px;
+    margin: 100px 25px;
 }
 .vol-card {
-    grid-column: 3/5;
+    grid-column: 5/6;
     grid-row: 4/5;    
 }
 .education-card {
-    grid-column: 1/;
+    grid-column: 2/3;
     grid-row: 1/2;  
 }
 main section img {
