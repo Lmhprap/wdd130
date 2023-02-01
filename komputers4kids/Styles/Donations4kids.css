@@ -84,8 +84,7 @@ nav a:hover {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-}
+  }
 .home-title {  
     color: #f68c0b;
     font-size: 2em;
@@ -195,11 +194,11 @@ main section {
     margin: 100px 25px;
 }
 .vol-card {
-    grid-column: 5/6;
+    grid-column: 4/6;
     grid-row: 4/5;    
 }
 .education-card {
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 1/2;  
 }
 main section img {
