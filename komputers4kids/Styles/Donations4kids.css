@@ -86,7 +86,7 @@ nav a:hover {
     grid-template-columns: repeat(6, 1fr);
   }
 .home-title {  
-    color: #f68c0b;
+    color: #ee0a0e;
     font-size: 2em;
     margin-top: 10px;
     font-family: Ubuntu, Quicksand, sans-serif;
@@ -156,27 +156,6 @@ footer social img {
     margin: 0 auto;
 }
 
-.msg {
-    background-color:rgb(201, 202, 204);
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
- 
-.msg h2 {
-    background-color:#dfe0e4;
-    margin: 0;
-    line-height: 1.5;
-    font-family: Rock Salt, Neucha, sans-serif;   
-}
-.msg p {
-    background-color:#e13030;
-    font-size: .8em;
-    padding-bottom: 15px;
-    font-family: Rock Salt, Neucha, sans-serif;
-}
 .icon {
     width: 80px;
     padding: 10px;
