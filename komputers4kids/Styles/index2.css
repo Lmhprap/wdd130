@@ -59,7 +59,8 @@ nav a {
 
 main {
     display:grid;
-    grid-template-columns: 1fr fr;
+    grid-template-columns: 2fr 3fr;
+  
 }
 
 .msg-area {
