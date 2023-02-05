@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu&display=swap');
+
+
+#background { 
+    height: 100px;
+    background: color #ecf0ec;
+  }
+  header {
+    background:#164DB5;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-family: Ubuntu, Quicksand, sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  P {
+    text-align: left;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-top: 100px;
+    font-family: Quicksand, sans-serif;
+  }
+  h2 { 
+    display: grid;
+    grid-template-columns:2fr 1fr afr;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    text-align: center;
+    font-family: Ubuntu, Quicksand, sans-serif;
+
+
+  }
+    nav :hover {
+    text-align: center;
+    background-color: rgb(247, 6, 6);
+    justify-content: space-around;   
+}
+nav a {
+    padding: 3px;
+    text-align: center;
+    color: #f9f4f4;
+    text-decoration: none;
+    margin: 50px;
+    line-height: 1.5em;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 80px;
+   }
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+main {
+    display:grid;
+    grid-template-columns: 1fr fr;
+}
+
+.msg-area {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    margin-top: 65px;
+    text-align: center;
+}
+body {
+    margin: 85;
+    background-color:rgb(254, 253, 251);
+    font-family: Quicksand, Aerial, sans-serif;
+    font-size: 25px;
+    padding: -100px;
+}
+footer {
+    grid-template-columns: repeat(6, 1fr);
+    background-color:#164DB5;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer a {
+    background-color:#164DB5;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+footer a:hover {
+    font-size: 1.4em;
+    text-decoration: underline;
+  }
+  
+  a:link {
+    color: rgb(248, 242, 242);
+    text-decoration: underline
+ 
+ 
+   
+
+  
+

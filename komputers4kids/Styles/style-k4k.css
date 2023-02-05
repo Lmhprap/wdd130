@@ -3,10 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu&display=swap');
 
 
+
 #background { 
     height: 725px;
     background: color #ecf0ec;
-  }
+    grid-column: 1/5;
+    grid-row: 4/9;
+}
 header {
     background:#164DB5;
     display: grid;
@@ -14,12 +17,10 @@ header {
 }
 nav {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-    
+    justify-content: space-around;       
 }
 nav a {
-    padding: 3px;
+    padding: 15px;
     text-align: center;
     color: #f9f4f4;
     text-decoration: none;
@@ -32,245 +33,3 @@ nav a:hover {
     text-align: center;
     background-color: rgb(247, 6, 6);   
 }
-.logo {
-    width: 80px;
-   }
-#logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
-#hero { 
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1fr 1fr  ;
-    grid-template: 1fr 1fr 1fr 1fr
-    margin: top 25px;px;
-}
-#hero-img {
-    width: 100%;
-}
-#hero-msg {
-    grid-column: 2/4;
-    grid-row: 1/2;
-    margin-top: 10px;
-}
-#hero-box {
-        grid-column: 1/2;
-        grid-row: 1/5;
-        margin: 35px;
-        text-align: center;
-}
-#hero-msg h4 {
-   color: rgb(39, 36, 36);
-}
-#k4k-home {
-    margin: 20px 10px;
-}
-
-.home-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-}
-.home-title {  
-    color: #f68c0b;
-    font-size: 2em;
-    margin-top: 10px;
-    font-family: Ubuntu, Quicksand, sans-serif;
-}
-body {
-    margin: 0;
-    background-color:rgb(254, 253, 251);
-    font-family: Quicksand, Aerial, sans-serif;
-    font-size: 20px;
-    padding: 0;
-}
-
-.book,  .join {
-    background-color:rgb(175, 176, 181); 
-    font-size: 18px; 
-    padding: 0px;  
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 50px;
-}
-
-.book:hover, .join:hover {
-    background-color:#c0bfc5;
-}
-footer {
-    grid-template-columns: repeat(6, 1fr);
-    background-color:#164DB5;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-footer a {
-    background-color:#164DB5;
-    text-decoration: none;
-    margin-top: 50px;
-}
-
-footer a:hover {
-    font-size: 1.4em;
-    text-decoration: underline;
-  }
-#k4k-home {
-    grid-column: 1/2;
-  }
-
-  h2 {
-    margin: 0;
-  }
-
-footer p {
-    padding: 25px 50px;
-    color: rgb(13, 13, 13);
-    font-size: 1.2em;
-    margin: 0 auto;
-}
-footer p a:hover {
-    font-size: 1.2em;
-    text-decoration: underline
-}
-footer social img {
-    padding-top: 25px;
-}
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-.msg {
-    background-color:rgb(201, 202, 204);
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
- 
-.msg h2 {
-    background-color:#dfe0e4;
-    margin: 0;
-    line-height: 1.5;
-    font-family: Rock Salt, Neucha, sans-serif;   
-}
-.msg p {
-    background-color:#e13030;
-    font-size: .8em;
-    padding-bottom: 15px;
-    font-family: Rock Salt, Neucha, sans-serif;
-}
-.icon {
-    width: 80px;
-    padding: 10px;
-}
-
-.button-box a {
-    background-color: #e0e0e0;
-    border: 0;
- }
-.button-box {
-    
-    text-align: center;
-    margin-top: 8px
- }
-main section {
-    text-align: center;
-}
-
-.donation-card {
-    margin: 100px 32px;
-}
-.fun-card {
-    margin: 97px 44px;
-}
-.education-card {
-    margin: 100px 25px;
-}
-.vol-card {
-    margin: 100px 25px;
-}
-.education-card {
-    grid-column: 2/4;
-    grid-row: 1/2;  
-}
-.fun-card {
-    grid-column: 8/10;
-    grid-row: 1/3;   
-}
-.donation-card {
-    grid-column:6/8;
-    grid-row: 1/3;    
-}
-.vol-card {
-    grid-column: 4/6;
-    grid-row: 1/3;    
-}
-.card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
-main section img {
-    box-sizing: border-box;
-}
-.card-img
- {
-    border: 3px solid #0a0a09;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    width: 100%;
-}
-.mountains {
-    width: 75%;
-    grid-column: 4/9;
-    grid-row: 2/3;
-    box-shadow: 5px 5px 10px #6f7364;
-
-}
-
-
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    #hero {
-        margin-top: 0;
-    }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
-    .rivers-card, .education-card, .fun-card, .vol-card, .donation-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
-    #background {
-        display: none;
-    }
- 
-    footer {
-        margin-top: 25px;
-    }
-}
-            
-
- 
