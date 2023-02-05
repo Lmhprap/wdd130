@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu&display=swap');
 
 
-#background { 
-    height: 100px;
-    background: color #ecf0ec;
-  }
-  header {
+
+    header {
     background:#164DB5;
     display: grid;
     grid-template-columns: 150px auto;
@@ -25,7 +22,7 @@
   }
   h2 { 
     display: grid;
-    grid-template-columns:2fr 1fr a1fr;
+    grid-template-columns:2fr;
     grid-row: 1/2;
     grid-column: 2/3;
     text-align: center;
@@ -66,17 +63,17 @@ main {
 .msg-area {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2.1fr);
+    grid-template-rows:2fr;
     gap: 55px;
     margin-top: 150px;
     text-align: center;
   }
 body {
-    margin: 85;
+    margin: 0px;
     background-color:rgb(254, 253, 251);
     font-family: Quicksand, Aerial, sans-serif;
     font-size: 25px;
-    padding: -100px;
+    padding: 0px;
 }
 footer {
     grid-template-columns: repeat(6, 1fr);
