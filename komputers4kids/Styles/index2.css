@@ -60,15 +60,16 @@ nav a {
 
 main {
     display:grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 3fr 3fr;
   
 }
 
 .msg-area {
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2.1fr);
     gap: 55px;
-    margin-top: 65px;
+    margin-top: 150px;
     text-align: center;
 }
 body {
@@ -104,7 +105,7 @@ footer a:hover {
   }
 
     footer p {
-      padding: 25px 50px;
+      padding: 25px;
       color: rgb(13, 13, 13);
       font-size: 1.2em;
       margin: 0 auto;
