@@ -10,10 +10,15 @@ header {
     grid-template-columns: 150px auto;
     font-family: Ubuntu, Quicksand, sans-serif;
   }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
   nav {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    font-family: Ubuntu, Quicksand, sans-serif;
   }
   nav :hover {
     text-align: center;
@@ -29,6 +34,7 @@ nav a {
     line-height: 1.5em;
     display: flex;
     justify-content: space-around;
+    font-family: Ubuntu, Quicksand, sans-serif;
 }
 .logo {
     width: 80px;
