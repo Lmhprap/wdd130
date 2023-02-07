@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu&display=swap');
 
-    .one, .two, .three, .four, .five, .six, aside, , p {
-        border: 1px solid red;
-
+     aside, p {
+        border: 2px solid rgb(10, 10, 10);
 }
 header {
     background:#164DB5;
@@ -38,16 +37,35 @@ nav a {
     justify-self: center;
     align-self: center;
 }
+p {
+  margin: 0;
+}
 
 .msg-area {
+  font-family: ubuntu, Quicksand, sans-serif;
     display: grid;
     grid-template-columns: 3fr 2fr;
-    margin: 0%;
+    margin: 20px;
+    gap: 10px;
+    text-align: center;
+    font-family: cursive;
+    align-items: center;
   }
+  .msg-area2 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin: 10px;
+    gap: 10px;
+    text-align: center;
+    font-family: cursive;
+    align-items: center;
+  }
+  
   aside {
     display: grid;
     grid-template-columns: 1fr 2fr;
-
+    padding: 10px;
+    gap: 10px;
   }
 
   footer {
@@ -58,11 +76,12 @@ nav a {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        font-family: Ubuntu, Quicksand, sans-serif;
     }
 footer a {
         background-color:#164DB5;
         text-decoration: none;
-        margin-top: 50px;
+        margin-top: 0;
     }
     
 footer a:hover {
@@ -77,8 +96,7 @@ footer a:hover {
     
 footer p {
         background:#164DB5;
-         font-family: Ubuntu, Quicksand, sans-serif;
-         margin: auto;
-         text-align: center;
+        font-family: Ubuntu, Quicksand, sans-serif;
+        text-align: center;
        }
 
