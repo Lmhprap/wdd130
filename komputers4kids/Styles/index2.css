@@ -19,6 +19,7 @@
     grid-column: 2/3;
     margin-top: 75px;
     font-family: Quicksand, sans-serif;
+    padding: 25px;
   }
   h2 { 
     display: grid;
@@ -96,19 +97,17 @@ footer a:hover {
   }
   
   a:link {
-    color: rgb(248, 242, 242);
+    color: rgb(243, 235, 235);
     text-decoration: underline
   }
 
-    footer p {
-      padding: 25px;
-      color: rgb(13, 13, 13);
-      font-size: 1.2em;
-      margin: 0 auto;
-    }
- 
+  footer p {
+    background:#164DB5;
+     font-family: Ubuntu, Quicksand, sans-serif;
+     margin: auto;
+     text-align: center;
+   }
  
    
 
   
-

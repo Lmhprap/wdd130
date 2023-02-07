@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu&display=swap');
 
-    .one, .two, .three, .four, .five, .six, aside, , p {
+    .one, .two, .three, .four, .five, .six, aside, p {
         border: 1px solid red;
 
 }
@@ -39,18 +39,22 @@ nav a {
     align-self: center;
 }
 
+main {
+    display: grid;
+   }
 .msg-area {
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    margin: 0%;
-  }
-  aside {
+    grid-template-columns: repeat(2,1fr);
+}
+header {
+    background:#164DB5;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-
+    grid-template-columns: 150px auto;
+    font-family: Ubuntu, Quicksand, sans-serif;
   }
 
-  footer {
+
+footer {
         grid-template-columns: repeat(6, 1fr);
         background-color:#164DB5;
         padding: 25px 50px;
@@ -81,4 +85,3 @@ footer p {
          margin: auto;
          text-align: center;
        }
-
