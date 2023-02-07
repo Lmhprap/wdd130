@@ -43,6 +43,7 @@ p {
 
 .msg-area {
   font-family: ubuntu, Quicksand, sans-serif;
+  font-size: larger;
     display: grid;
     grid-template-columns: 3fr 2fr;
     margin: 20px;
@@ -53,6 +54,7 @@ p {
   }
   .msg-area2 {
     font-family: Ubuntu, Quicksand, sans-serif;
+    font-size: larger;
     display: grid;
     grid-template-columns: 2fr 3fr;
     margin: 20px;
