@@ -52,9 +52,10 @@ p {
     align-items: center;
   }
   .msg-area2 {
+    font-family: Ubuntu, Quicksand, sans-serif;
     display: grid;
     grid-template-columns: 2fr 3fr;
-    margin: 10px;
+    margin: 20px;
     gap: 10px;
     text-align: center;
     font-family: cursive;
@@ -72,7 +73,7 @@ p {
         grid-template-columns: repeat(6, 1fr);
         background-color:#164DB5;
         padding: 25px 50px;
-        margin-top: 200px;
+        margin-top: 50px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
