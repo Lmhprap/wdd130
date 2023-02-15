@@ -16,7 +16,7 @@
   
  .content {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 3fr fr;
   margin: auto;
  }
   
@@ -35,7 +35,7 @@
     text-align: center;
     font-family: Ubuntu, Quicksand, sans-serif;
     margin: 25px;
-    margin-bottom: -50px;
+    margin-bottom: -10px;
   }
   img {
     display: block;
