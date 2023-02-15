@@ -16,7 +16,6 @@
   
  .content {
   display: grid;
-  grid-template-columns: 3fr fr;
   margin: auto;
  }
   
