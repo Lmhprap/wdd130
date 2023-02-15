@@ -87,7 +87,7 @@ p {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        font-family: Ubuntu, Quicksand, sans-serif;
+        
     }
 footer a {
         background-color:#164DB5;
